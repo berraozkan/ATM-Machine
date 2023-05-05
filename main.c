@@ -13,7 +13,7 @@ int main()
 
     if (card == 'k')
     {
-        printf("Hello Kelly Knight\n\n");
+        printf("Hello, Kelly Knight!\n\n");
 
         printf(">> Press 1 to withdrawal the money from your account\n\n");
         printf(">> Press 2 to check the balance\n\n");
@@ -35,7 +35,7 @@ int main()
 
                 if (a > b)
                 {
-                    printf("insufficient");
+                    printf("Insufficient");
                 }
                 else
                 {
@@ -43,13 +43,13 @@ int main()
 
                     balance = b - a;
 
-                    printf("Now,your bank balance is %d", balance);
+                    printf("Now, your bank balance is %d", balance);
                 }
             }
             else
             {
-                printf("incorrect pin\n\n");
-                printf("please try again\n\n");
+                printf("Incorrect pin\n\n");
+                printf("Please try again\n\n");
                 scanf("%d", &pin);
 
                 if (pin == 1234)
@@ -67,7 +67,7 @@ int main()
 
                         balance = b - a;
 
-                        printf("Now,your bank balance is %d", balance);
+                        printf("Now, your bank balance is %d", balance);
                     }
                 }
                 else
@@ -105,7 +105,7 @@ int main()
     }
     else if (card == 's')
     {
-        printf("Hello Susan Sanders\n\n");
+        printf("Hello, Susan Sanders!\n\n");
 
         printf(">> Press 1 to withdrawal the money from your account\n\n");
         printf(">> Press 2 to check the balance\n\n");
@@ -127,7 +127,7 @@ int main()
 
                 if (a > b)
                 {
-                    printf("insufficient");
+                    printf("Insufficient");
                 }
                 else
                 {
@@ -135,13 +135,13 @@ int main()
 
                     balance = b - a;
 
-                    printf("Now,your bank balance is %d", balance);
+                    printf("Now, your bank balance is %d", balance);
                 }
             }
             else
             {
-                printf("incorrect pin\n\n");
-                printf("please try again\n\n");
+                printf("Incorrect pin\n\n");
+                printf("Please try again\n\n");
                 scanf("%d", &pin);
 
                 if (pin == 5678)
@@ -159,7 +159,7 @@ int main()
 
                         balance = b - a;
 
-                        printf("Now,your bank balance is %d", balance);
+                        printf("Now, your bank balance is %d", balance);
                     }
                 }
                 else
@@ -197,7 +197,7 @@ int main()
     }
     else if (card == 'i')
     {
-        printf("Hello Isabel Ivy\n\n");
+        printf("Hello, Isabel Ivy!\n\n");
 
         printf(">> Press 1 to withdrawal the money from your account\n\n");
         printf(">> Press 2 to check the balance\n\n");
@@ -227,13 +227,13 @@ int main()
 
                     balance = b - a;
 
-                    printf("Now,your bank balance is %d", balance);
+                    printf("Now, your bank balance is %d", balance);
                 }
             }
             else
             {
-                printf("incorrect pin\n\n");
-                printf("please try again\n\n");
+                printf("Incorrect pin\n\n");
+                printf("Please try again\n\n");
                 scanf("%d", &pin);
 
                 if (pin == 9123)
@@ -251,7 +251,7 @@ int main()
 
                         balance = b - a;
 
-                        printf("Now,your bank balance is %d", balance);
+                        printf("Now, your bank balance is %d", balance);
                     }
                 }
                 else
@@ -289,7 +289,7 @@ int main()
     }
     else if (card == 'l')
     {
-        printf("Hello Lilly Lawrance\n\n");
+        printf("Hello, Lilly Lawrance!\n\n");
 
         printf(">> Press 1 to withdrawal the money from your account\n\n");
         printf(">> Press 2 to check the balance\n\n");
@@ -311,7 +311,7 @@ int main()
 
                 if (a > b)
                 {
-                    printf("insufficient");
+                    printf("Insufficient");
                 }
                 else
                 {
@@ -319,13 +319,13 @@ int main()
 
                     balance = b - a;
 
-                    printf("Now,your bank balance is %d", balance);
+                    printf("Now, your bank balance is %d", balance);
                 }
             }
             else
             {
-                printf("incorrect pin\n\n");
-                printf("please try again\n\n");
+                printf("Incorrect pin\n\n");
+                printf("Please try again\n\n");
                 scanf("%d", &pin);
 
                 if (pin == 8123)
@@ -343,7 +343,7 @@ int main()
 
                         balance = b - a;
 
-                        printf("Now,your bank balance is %d", balance);
+                        printf("Now, your bank balance is %d", balance);
                     }
                 }
                 else
